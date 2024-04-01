@@ -9,3 +9,7 @@
 .flex-col {
     flex-direction: column;
 }
+
+button {
+    background-color: transparent;
+}
