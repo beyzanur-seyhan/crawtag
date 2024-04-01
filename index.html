@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRAWTAG</title>
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>CRAWTAG</header>
+    <div>
+      <div class="font-medium selected-choice">Instagram Hashtags</div>
+      <div class="layout-flex flex-col">
+        <select class="selectbox">
+          <option selected="selected" value="Instagram">Instagram</option>
+        </select>
+        <div class="input-search">
+          <img src="./src/images/search.svg" alt="Icon Search" />
+          <input type="text" placeholder="Type a word" />
+        </div>
+        <div class="layout-flex">
+          <div class="button-search">
+            <button>Search</button>
+          </div>
+          <button class="button-export">
+            <span>Export</span>
+            <img src="./src/images/download.svg" alt="Icon Download" />
+          </button>
+        </div>
+      </div>
+    </div>
+    <table>
+      <tr>
+        <td class="cell-unselected">
+          <button>
+            <img src="./src/images/unselected.svg" alt="Icon Unselected" />
+          </button>
+        </td>
+        <td class="cell-name">
+          <button>
+            <span>Name</span>
+            <img src="/src/images/sort.svg" alt="Icon Sort" />
+          </button>
+        </td>
+        <td>
+          <span>Followers</span>
+          <img src="/src/images/sort.svg" alt="Icon Sort" />
+        </td>
+        <td>
+          <span>Popularity</span>
+          <img src="/src/images/sort.svg" alt="Icon Sort" />
+        </td>
+      </tr>
+      <tr>
+        <!-- Inject -->
+      </tr>
+    </table>
+  </body>
+</html>
