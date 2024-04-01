@@ -3,11 +3,13 @@
 
 body {
     font-family: "Inter", sans-serif;
+    padding: 27px 16px 28px 16px;
 }
 
 header {
     font-size: 24px;
     font-weight: 700;
+    margin-bottom: 17px;
 }
 
 select {
@@ -29,6 +31,7 @@ select {
 }
 
 .selectbox {
+    margin-top: 21px;
     background-image: url("../images/arrow-down.svg");
     background-position:
         calc(100% - 26px) 14px,
@@ -40,6 +43,8 @@ select {
 }
 
 .input-search {
+    margin-top: 11px;
+    margin-bottom: 11px;
     display: flex;
     align-items: center;
     border: 1px solid #E0DCDC;
@@ -51,6 +56,11 @@ select {
 .input-search input {
     border: none;
     font-size: 17px;
+}
+
+.button-search {
+    margin-right: 17px;
+    width: 100%;
 }
 
 .button-search button {
@@ -70,11 +80,18 @@ select {
     border: 1px solid #D0D5DD;
     border-radius: 8px;
     background-color: white;
+    width: 36%;
+}
+
+table {
+    width: -webkit-fill-available;
+    margin-top: 29px;
 }
 
 tr {
     background-color: #FCFCFD;
     display: flex;
+    border: 1px solid #EAECF0;
 }
 
 td {
@@ -117,7 +134,7 @@ td {
     padding: 12px 8px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 1440px) {
     header {
         font-size: 20px;
     }
@@ -125,7 +142,6 @@ td {
     .button-search {
         height: 48px;
         font-size: 14px;
-        width: 165px;
         height: 48px;
     }
 
